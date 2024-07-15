@@ -8,6 +8,7 @@ Taxicab distance with height
 python mst.py -d l1_xyz -x -o l1_xyz.png 
 ```
 ![](l1_xyz.png)
+
 Taxicab distance without height
 ```sh
 python mst.py -d l1_xy -x -o l1_xy.png 
@@ -18,11 +19,13 @@ Euclidean distance with height
 python mst.py -d l2_xyz -x -o l2_xyz.png 
 ```
 ![](l2_xyz.png)
+
 Euclidean distance without height
 ```sh
 python mst.py -d l2_xy -x -o l2_xy.png 
 ```
 ![](l2_xy.png)
+
 Euclidean distance with height with my base as a node
 ```sh
 python mst.py -d l2_xy -x -b 90000 20000 -o l2_xy.png 
