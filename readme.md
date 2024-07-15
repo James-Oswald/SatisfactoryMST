@@ -14,6 +14,7 @@ Taxicab distance without height
 python mst.py -d l1_xy -x -o l1_xy.png 
 ```
 ![](l1_xy.png)
+
 Euclidean distance with height
 ```sh
 python mst.py -d l2_xyz -x -o l2_xyz.png 
@@ -42,7 +43,8 @@ positional arguments:
 options:
   -h, --help            show this help message and exit
   -d {l2_xy,l2_xyz,l1_xy,l1_xyz}, --distance_measure {l2_xy,l2_xyz,l1_xy,l1_xyz}
-                        The distance measure to use for the MST. l1 is taxicab distance, l2 is euclidean distance. xy to ignore heights of nodes, xyz takes      
+                        The distance measure to use for the MST. l1 is taxicab distance,
+                        l2 is euclidean distance. xy to ignore heights of nodes, xyz takes      
                         hights into account.
   -b BASE_CORDS [BASE_CORDS ...], --base_cords BASE_CORDS [BASE_CORDS ...]
                         x y (z) cords of your base, will be included in the MST as a big blue dot
