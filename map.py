@@ -63,5 +63,6 @@ if __name__ == '__main__':
     fig, ax = plt.subplots()
     ax.imshow(img, extent=[-325000, 425000, -375000, 375000])
     nx.draw(mst, positions, ax, node_color=node_colors, node_size=node_sizes, edge_color='cyan', width=0.5)
-    plt.show()
+    #plt.show()
+    plt.savefig("optimized_route.png")
     exit(0)
